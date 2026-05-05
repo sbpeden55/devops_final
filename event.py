@@ -81,7 +81,7 @@ class Event:
     #       object using the data extracted from the dictionary.
 
     @staticmethod
-    def from_dict(data) -> Event:
+    def from_dict(data):
         return Event(
             event_name=data["event_name"],
             description=data["description"],

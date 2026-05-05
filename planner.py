@@ -101,7 +101,7 @@ class Planner:
     #       for the Planner object--not the dictionaries from the raw data.
 
     @staticmethod
-    def from_dict(data) -> Planner:
+    def from_dict(data):
         category_list = []
         task_list = []
         event_list = []

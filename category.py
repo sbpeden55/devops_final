@@ -42,5 +42,5 @@ class Category:
     #       object using the data extracted from the dictionary.
 
     @staticmethod
-    def from_dict(dict) -> Category:
+    def from_dict(dict):
         return Category(category_name=dict["category_name"], description=dict["description"])

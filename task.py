@@ -98,7 +98,7 @@ class Task:
     #       object using the data extracted from the dictionary.
 
     @staticmethod
-    def from_dict(data) -> Task:
+    def from_dict(data):
         return Task(
             task_name=data["task_name"],
             todays_focus=data["todays_focus"],
